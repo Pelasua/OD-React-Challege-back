@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "pageId": "",
+      "pageName": "",
+      "pageAuthor": "",
+      "pageLocation": "",
+      "likes": 0,
+      "comments": [
+        {
+          "userName": "",
+          "comment": "",
+          "date": "",
+          "likes": 0,
+          "responses": 0
+        }
+      ]
+    }
+  ],
+  "gallery": {
+    "photos": [{ "id": "", "data": "" }],
+    "videos": [{ "id": "", "data": "" }]
+  }
+}
