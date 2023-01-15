@@ -28,9 +28,9 @@ const express_1 = require("express");
 const datajson = __importStar(require("../data/data.json"));
 exports.routes = (0, express_1.Router)();
 const data = datajson;
-exports.routes.get("/get-pages", (req, res) => {
+exports.routes.get('/get-pages', (req, res) => {
     res.send(data.pages);
 });
-exports.routes.get("/get-gallery", (req, res) => {
+exports.routes.get('/get-gallery', (req, res) => {
     res.send(data.gallery);
 });

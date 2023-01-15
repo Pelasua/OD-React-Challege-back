@@ -2,15 +2,19 @@ export interface pagesDTO {
   pages: Array<{
     pageId: string;
     pageName: string;
+    pageImage: string;
     pageAuthor: string;
     pageLocation: string;
-    likes: number;
+    pageDate: string;
+    totalLikes: string;
+    totalComments: string;
     comments: Array<{
       userName: string;
+      profilePicture: string;
       comment: string;
       date: string;
-      likes: number;
-      responses: number;
+      likes: string;
+      responses: string;
     }>;
   }>;
 }

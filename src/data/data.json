@@ -1,24 +1,76 @@
 {
   "pages": [
     {
-      "pageId": "",
-      "pageName": "",
-      "pageAuthor": "",
-      "pageLocation": "",
-      "likes": 0,
+      "pageId": "page1",
+      "pageName": "Lost on the Road to the mountains",
+      "pageImage": "http://localhost:3001/images/detail-page-bg.png",
+      "pageAuthor": "Alan Tiger",
+      "pageLocation": "Paris, France",
+      "pageDate": "March 31st, 2016",
+      "totalLikes": "4.5k",
+      "totalComments": "1.1K",
       "comments": [
         {
-          "userName": "",
-          "comment": "",
-          "date": "",
-          "likes": 0,
-          "responses": 0
+          "userName": "Thomas Rodriguez",
+          "profilePicture": "http://localhost:3001/images/user1.png",
+          "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+          "date": "10 minutes ago",
+          "likes": "4.5K",
+          "responses": "1.1K"
+        },
+        {
+          "userName": "Thomas Rodriguez",
+          "profilePicture": "http://localhost:3001/images/user2.png",
+          "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+          "date": "10 minutes ago",
+          "likes": "4.5K",
+          "responses": "1.1K"
+        },
+        {
+          "userName": "Thomas Rodriguez",
+          "profilePicture": "http://localhost:3001/images/user3.png",
+          "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+          "date": "10 minutes ago",
+          "likes": "4.5K",
+          "responses": "1.1K"
+        },
+        {
+          "userName": "Thomas Rodriguez",
+          "profilePicture": "http://localhost:3001/images/user4.png",
+          "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+          "date": "10 minutes ago",
+          "likes": "4.5K",
+          "responses": "1.1K"
         }
       ]
     }
   ],
   "gallery": {
-    "photos": [{ "id": "", "data": "" }],
-    "videos": [{ "id": "", "data": "" }]
+    "photos": [
+      {
+        "id": "photo1",
+        "data": "http://localhost:3001/images/photo-1530584379127-80bf85c555ed.jpeg"
+      },
+      {
+        "id": "photo2",
+        "data": "http://localhost:3001/images/photo-1603314585442-ee3b3c16fbcf.jpg"
+      },
+      {
+        "id": "photo3",
+        "data": "http://localhost:3001/images/photo-1611416517780-eff3a13b0359.jpg"
+      }
+    ],
+    "videos": [{
+      "id": "video1",
+      "data": "http://localhost:3001/images/photo-1530584379127-80bf85c555ed.jpeg"
+    },
+    {
+      "id": "video2",
+      "data": "http://localhost:3001/images/photo-1603314585442-ee3b3c16fbcf.jpg"
+    },
+    {
+      "id": "video3",
+      "data": "http://localhost:3001/images/photo-1611416517780-eff3a13b0359.jpg"
+    }]
   }
 }
